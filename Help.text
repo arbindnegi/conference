@@ -1,0 +1,23 @@
+Add new Session:
+
+Post Method: http://localhost:5000/api/v1/sessions
+
+{
+    "session_name" : "Springboot Biggner Learning Session",
+    "session_description" : "In This Session, We will try to understand the use of Springboot and create a firt application",
+    "session_length" :45
+}
+
+get all the session:
+Get Method: http://localhost:5000/api/v1/sessions
+
+Add new Speaker:
+Post Method: http:
+http://localhost:5000/api/v1/speakers
+{
+    "first_name" : "Arbind",
+    "last_name" : "Negi",
+    "title" :"Technical Expert",
+    "company" : "Barclays technology center",
+    "speaker_bio" : ""
+}
